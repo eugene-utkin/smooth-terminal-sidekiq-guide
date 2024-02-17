@@ -7,3 +7,7 @@ end
 Sidekiq.configure_server do |config|
   config.redis = { db: 1 }
 end
+
+class OurWorker
+
+end
