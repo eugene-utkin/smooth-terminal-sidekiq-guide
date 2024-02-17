@@ -9,5 +9,5 @@ Sidekiq.configure_server do |config|
 end
 
 class OurWorker
-
+  include Sidekiq::Worker
 end
